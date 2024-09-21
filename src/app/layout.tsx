@@ -62,7 +62,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center py-12">
-          <p className="flex items-center text-[40px] xl:text-[80px] text-center  m-auto  font-bold flex-wrap ">Let'ts build to <Image src={require("./images/amirbek.png")} width={50} height={50} alt="" className="size-20 rounded-full object-cover" />gether</p>
+          <p className="flex items-center text-[40px] xl:text-[80px] text-center  m-auto  font-bold flex-wrap ">Let&apos;s build to <Image src={require("./images/amirbek.png")} width={50} height={50} alt="" className="size-20 rounded-full object-cover" />gether</p>
         </footer>
       </body>
     </html>

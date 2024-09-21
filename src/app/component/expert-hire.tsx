@@ -17,7 +17,7 @@ const ExpertHire = () => {
                         <Link href={"#about"} className='text-yellow-400'>Hire me</Link>
                     </div>
                     <div className="card  gap-3 flex flex-col w-full p-4">
-                        <h3 className='font-bold text-xl xl:text-3xl '>Let's discusss</h3>
+                        <h3 className='font-bold text-xl xl:text-3xl '>Let&apos;s discusss</h3>
                         <p>Unclock Success with Expert Guidance</p>
                         <Link href={"#about"} className='text-yellow-400'>Hire me</Link>
                     </div>

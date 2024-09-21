@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./component/navbar";
 import Showcase from "./component/showcase";
 import ExpertHire from "./component/expert-hire";
