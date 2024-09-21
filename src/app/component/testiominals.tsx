@@ -62,25 +62,14 @@ const EmblaCarousel: React.FC = () => {
                             <div className='flex'>
                                 {
                                     Array.from({ length: 5 }).map((title, inx) => (
-                                        <BiSolidStar color='#FCD353' key={inx}/>
+                                        <BiSolidStar color='#FCD353' key={inx} />
                                     ))
                                 }
                             </div>
                         </div>
                     </div>
                 ))}
-
             </div>
-            {/* <div className="flex justify-center mt-4 space-x-2">
-                {infromation.map((info, index) => (
-                    <button
-                        key={index}
-                        className={`w-4 h-4 rounded-full ${selectedIndex === index ? 'bg-blue-500' : 'bg-gray-300'
-                            }`}
-                        onClick={() => emblaApi?.scrollTo(index)}
-                    />
-                ))}
-            </div> */}
         </div>
     );
 };
